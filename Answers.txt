@@ -1,0 +1,40 @@
+Q1).    what is the difference between Internal Storage & External Storage?
+Ans:    Internal Storage is a type of storage that is in built in to the phone 
+        and non volatile in nature. It is  not acesible by the user except via
+        installed applications (or by gaining root acess to the phone)
+        Example: data/data/app_packageName
+    
+        External Storage is any form of storage that can be added to the the
+        internal storage. It is generally removable in  nature
+        Example: Micro SDCard
+
+Q2).    For how long does data reside in the Cache?
+Ans:    Typically data will continue to remain in the cache until there is no
+        longer any more room for it. Alternatively there could be scheduling
+        algorithms that devise what data would stay in the cache for what period
+        of time 
+        Example: First-In First Out (FIFO), Last-in First(LIFO)
+
+
+
+    
+Q3).    What are the critical Permissions and Normal Permissions? What are the
+        examples of each?
+Ans:    
+        Normal permissions cover areas where your application needs to acess
+        data or resources outside the application's sandbox but where there is
+        very little risk to the user's privacy or the operation of other
+        applications. Example permission to set the time zone is a normal
+        permission.If an app declares that it needs a normal permission the
+        system automatically grants the permission to the application.
+
+        Critical Permissions cover areas that the application wnats dat or
+        resources that involove the user's private infromation or could
+        potentially affect the user's stored data or the operation of any other
+        application. For example the ability to read the user's contact is an
+        dangeraous permission. If an app declares the it needs a dangerous
+        permission he user has to explicitly grant the permission to the app.
+
+
+
+        
